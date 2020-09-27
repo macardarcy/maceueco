@@ -1,0 +1,359 @@
+/*Navbar*/
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+  min-height: 100px; }
+
+.navbar-toggler {
+  color: black;
+  font-size: 40px; }
+
+.navbar-toggler:focus {
+  outline: none; }
+
+.logo {
+  min-width: 80px;
+  max-width: 200px; }
+
+li, a {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black; }
+
+.navbar-link__main {
+  padding: 0.5rem 1rem;
+  text-decoration: none; }
+
+.navbar-link__main:hover {
+  color: #0ac5a8;
+  text-decoration: none; }
+
+/*Main*/
+.boton-bienvenido {
+  font-family: "Abril Fatface", cursive;
+  color: #615e59;
+  background-color: #b3b0aa;
+  border: #b3b0aa; }
+
+.boton-bienvenido:hover {
+  color: #615e59;
+  background-color: #b3b0aa;
+  border: #b3b0aa; }
+
+@media (max-width: 768px) {
+  .boton-bienvenido {
+    margin-bottom: 60px; } }
+
+#topmargin-lg {
+  margin-top: 80px; }
+
+.content-center {
+  max-width: 800px;
+  margin: 0 auto 60px auto;
+  text-align: center; }
+
+.main-header {
+  background: url("../multimedia/fondo-main.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 110vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.main-header h1 {
+  font-family: "Abril Fatface", cursive;
+  font-size: 50px;
+  line-height: 180px;
+  letter-spacing: 10px; }
+
+@media (max-width: 768px) {
+  .main-header {
+    background: url("../multimedia/fondo-main.png") no-repeat;
+    background-size: cover;
+    background-position: center; }
+  .main-header h1 {
+    font-family: "Abril Fatface", cursive;
+    font-size: 50px;
+    line-height: 80px;
+    letter-spacing: 2px; } }
+
+/*Generales*/
+.Titulos {
+  text-align: center;
+  color: #000000;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: "Abril Fatface", cursive;
+  padding: 10px; }
+
+.Parrafos {
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 20px; }
+
+.Subtitulos {
+  color: #000000;
+  font-size: 20px;
+  font-family: "Abril Fatface", cursive;
+  padding: 5px; }
+
+.icon-subtitle {
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-family: 'Monserrat',sans-serif; }
+
+/*Ubicacion*/
+.map-card {
+  margin: 20px 0px 0px 0px; }
+
+.map-card__column2 {
+  padding: 20px;
+  letter-spacing: 2px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300; }
+
+.mapa-ubicacion {
+  border-radius: 30%; }
+
+.p-ubicacion {
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 18px;
+  padding: 30px; }
+
+.map-icon {
+  text-align: center; }
+
+.ubicacion__aeropuerto {
+  color: #000000;
+  font-size: 20px;
+  font-family: "Abril Fatface", cursive;
+  padding: 5px; }
+
+.ubicacion__retiro {
+  color: #000000;
+  font-size: 20px;
+  font-family: "Abril Fatface", cursive;
+  padding: 5px; }
+
+.ubicacion-general {
+  padding-top: 120px; }
+
+@media (max-width: 768px) {
+  .mapa-responsive {
+    display: flex;
+    flex-direction: column; } }
+
+/*Nosotros*/
+.nosotros-general {
+  padding-top: 120px; }
+
+.nosotros-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px; }
+
+.nosotros-fotos {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 15rem;
+  margin: 0 auto;
+  width: 100%;
+  zoom: 1; }
+
+.imagenCircular {
+  border-radius: 30%;
+  padding: 5px; }
+
+.aboutus-icon {
+  text-align: center;
+  padding-bottom: 5px; }
+
+.parrafos-nosotros {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  padding: 5px; }
+
+@media (max-width: 768px) {
+  .nosotros-p {
+    margin: 10px;
+    border: auto; }
+  .parrafos-nosotros {
+    font-size: 15px;
+    display: flex; }
+  .nosotros-fotos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; } }
+
+/*Servicios*/
+.servicios-general {
+  padding-top: 120px;
+  padding-bottom: 20px; }
+
+.amenities-icon {
+  padding-bottom: 5px;
+  display: inline-block;
+  margin: 2px; }
+
+.container-servicios-icons {
+  text-align: center; }
+
+.servicios-galeria .servicios-hostel__foto {
+  height: 30rem;
+  margin: 1rem;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  cursor: pointer;
+  filter: grayscale(0.9);
+  box-shadow: inset 0px 0px 20px 20px rgba(0, 0, 0, 0.4);
+  position: relative;
+  overflow: hidden; }
+
+.servicios-galeria .servicios-hostel__foto1 {
+  background-image: url(../multimedia/kitchen.jpeg); }
+
+.servicios-galeria .servicios-hostel__foto2 {
+  background-image: url(../multimedia/patio.jpeg); }
+
+.servicios-galeria .servicios-hostel__foto3 {
+  background-image: url(../multimedia/areacomun.jpeg); }
+
+.servicios-galeria .servicios-hostel__foto4 {
+  background-image: url(../multimedia/lockers.jpeg); }
+
+.servicios-galeria .servicios-hostel__foto5 {
+  background-image: url(../multimedia/huerta.png); }
+
+.servicios-galeria .servicios-hostel__foto6 {
+  background-image: url(../multimedia/petfriendly.png); }
+
+.servicios-galeria .hostel-subtitulo__foto {
+  margin-left: 1rem;
+  position: absolute;
+  top: 70%;
+  filter: none; }
+
+.servicios-galeria h3 {
+  font-family: "Abril Fatface", cursive;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.562);
+  filter: drop-shadow(2px 4px 6px black);
+  z-index: 999; }
+
+.servicios-galeria .servicios-hostel__foto:hover {
+  transition: all .3s;
+  filter: none;
+  transform: scale(1.015); }
+
+/*Habitaciones*/
+.habitaciones-general {
+  min-height: 100vh;
+  padding: 1.25rem;
+  text-align: center;
+  font-family: "Abril Fatface", cursive;
+  color: #000000;
+  background-color: #b3b0aa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+#table {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px; }
+
+.bed-icon {
+  text-align: center;
+  padding-bottom: 5px; }
+
+.table__habs {
+  border: 1px solid;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 5px; }
+
+.habs-subs {
+  color: #000000;
+  font-size: 20px;
+  font-family: 'Abril Fatface', cursive;
+  padding: 10px; }
+
+@media (max-width: 768px) {
+  .habitaciones-general {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px 0px 0px 0px;
+    margin-top: 100px;
+    justify-content: center; } }
+
+/*Contacto*/
+.pag-contacto {
+  padding-top: 150px; }
+
+#pag-contacto h3 {
+  margin-bottom: 20px;
+  font-size: 26px; }
+
+#pag-contacto li {
+  font-size: 16px;
+  list-style: none;
+  padding: 10px 0; }
+
+#pag-contacto i {
+  color: #515A5A;
+  padding-right: 10px; }
+
+#pag-contacto #casillero {
+  font-size: 14px;
+  margin-bottom: 0px !important; }
+
+.alinear {
+  align-items: center; }
+
+.full-width {
+  width: 100%; }
+
+@media (max-width: 768px) {
+  .pag-contacto {
+    margin-top: 200px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
+
+/*Footer*/
+.footer-general {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px; }
+
+.footer-copy {
+  font-size: 0.75rem;
+  color: #615e59;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: .07rem; }
+
+.footer-icon:hover {
+  transform: scale(2, 2); }
